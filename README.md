@@ -7,6 +7,7 @@ It is based on miniz - https://code.google.com/archive/p/miniz/ (completely free
 
 ## Including into your project
 Just add **miniz.c** and **zpp.h** into your project. Include **zpp.h** and use the classes defined there.
+**No any library required!**
 
 ## How to use?
 Look the **zipFileWriter** and **zipFileReader**, the interfaces are self-obvious. Examples of usage
