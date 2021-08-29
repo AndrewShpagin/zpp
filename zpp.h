@@ -6,6 +6,7 @@
 #include <functional>
 #include <iostream>
 #include <filesystem>
+#include <cstring>
 
 #define MINIZ_HEADER_FILE_ONLY
 #include "miniz.c"
