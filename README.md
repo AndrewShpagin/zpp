@@ -32,7 +32,7 @@ z.flush();
 4. Extract the whole archive
 ```cpp
 zipFileReader r("path_to_archive.zip");
-	r.extractAll("./output_path/");
+r.extractAll("./output_path/");
 ```
 5. Extract single file (the first one in the ZIP). It is helpful if the ZIP contains just one file.
 ```cpp
