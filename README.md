@@ -1,7 +1,7 @@
 # zpp
 ![CMake](https://github.com/AndrewShpagin/zpp/actions/workflows/cmake.yml/badge.svg)
 
-The c++ interface to operate ZIP files. No libraries required. Just one header and on c file.
+The c++ interface to operate ZIP files. No libraries required. Just one header and one c file.
 
 It is based on miniz - https://code.google.com/archive/p/miniz/ (completely free)
 
