@@ -61,7 +61,7 @@ inline zipFileWriter::zipFileWriter(const std::string& destArchiveName) {
 	errors = false;
 	try{
 		std::filesystem::remove(destArchiveName);
-		memset(&ar, 0, sizeof(ar));
+		std::memset(&ar, 0, sizeof(ar));
 		errors = true;
 		errors = !mz_zip_writer_init_file(&ar, destArchiveName.c_str(), 0);
 	}
@@ -125,7 +125,7 @@ inline void zipFileReader::createPathForFile(const std::string& destFilename) {
 }
 
 inline zipFileReader::zipFileReader(const std::string& archiveName) {
-	memset(&ar, 0, sizeof(ar));
+	std::memset(&ar, 0, sizeof(ar));
 	errors = !mz_zip_reader_init_file(&ar, archiveName.c_str(), 0);
 }
 
