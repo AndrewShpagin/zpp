@@ -50,3 +50,5 @@ for (auto e = list.begin(); e != list.end(); e++) {
 	r.extractToFile(e->c_str(), p.generic_u8string()); 
 }
 ```
+## Licensing
+Completely free. Look https://code.google.com/archive/p/miniz/
